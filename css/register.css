@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bungee+Spice&family=Chakra+Petch:wght@300&family=Comfortaa:wght@300&family=Kalam:wght@300&family=Kanit:wght@100&family=Oswald:wght@200&family=Pacifico&family=Raleway:ital,wght@0,100;1,100&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    box-sizing: border-box;
+}
+
+.contenedor-principal {
+    background-color: #ABBAA8;
+    width: 1257px;
+    height: 862px;
+    margin: 0 auto;
+    display: flex;
+    padding: 35px;
+    border-radius: 30px;
+    
+}
+.conetendor-izq{
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    /* background-color: azure; */
+    align-items: center;
+    gap: 30px;
+}
+.titulo{
+    font-size: 40px;
+}
+.parrafo{
+    width: 600px ;
+    text-align: center;
+}
+.sub-texto{
+    width: 300px;
+    text-align: center;
+}
+.titulo-bienvenido{
+    font-size: 45px;
+}
+.logearse{
+
+    width: 198px;
+    height: 43px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ABBAA8;
+}
+.camara{
+    width: 67px;
+    height: 67px;
+    background-color: rgb(208, 229, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.conetendor-dch{
+    /* background-color: cadetblue; */
+    width: 45%;
+}
+input{
+    width: 449px;
+    height: 59px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+.enviar{
+    margin-top: 50px;
+    width: 225px;
+    height: 40px;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+}
+.texto-drch{
+    /* background-color: rgb(55, 151, 40); */
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    /* left: 50%; */
+    /* transform: translate(-50%,-50%); */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    height: 300px;
+    justify-content: space-between;
+    color: white;
+}
+.img{
+    width: 65%;
+
+}
