@@ -1,0 +1,15 @@
+.principal {
+  border-style : solid;
+  width: 1257px;
+  height: 862px;
+}
+
+.derecha {
+  border-style : solid;
+  width: 60%;
+}
+
+.izquierda {
+  border-style : solid;
+  width: 40%;
+}
