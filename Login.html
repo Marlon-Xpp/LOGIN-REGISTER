@@ -5,25 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/login.css">
+    <script src="https://kit.fontawesome.com/04437d275d.js" crossorigin="anonymous"></script>
     <title>LOGIN</title>
 </head>
 <body>
-    <main class="principal">
-        <section class="derecha">
-            <h1>INICIAR SESIÓN</h1>
-            <h3> INGRESE SUS DATOS PARA PODER INGRESAR O ACTIVE EL MODO DE RECONOCIMIENTO FACIAL</h3>
-            <form action="">
-                <input type="button"><span></span>
-                <input type="button" value="INGRESE SU CORREO">
-                <input type="button" value="INGRESE SU CONTRASEÑA">
-                <input type="submit" value="INGRESAR">
-            </form>
-        </section>
-        <section class="izquierda">
-            <h1>BIENVENIDO</h1>
-            <h3>SI NO TIENES UNA CUENTA REGISTRATE AQUÍ</h3>
-            <a href="">REGISTRARSE</a>
-        </section>
+    <main class="centrado">
+        <article class="contenedor-principal">
+            <section class="contenedor-izq">
+                <img class="imagen" src="img/fondo.jpg" alt="">
+                <div class="texto-izq">
+                    <h2 class="titulo-bienvenido">
+                        BIENVENIDO
+                    </h2>
+                    <span class="sub-texto">
+                        SI NO TIENES UNA CUENTA REGISTRATE AQUÍ
+                    </span>
+                    <div class="logearse">
+                        <a href="Login.html">LOGEARSE</a>
+                    </div>
+                </div>
+
+            </section>
+            <section class="contenedor-dch">
+                <h1 class="titulo">INICIAR SESIÓN</h1>
+                <p class="parrafo"> INGRESE SUS DATOS PARA PODER INGRESAR O ACTIVE EL MODO DE RECONOCIMIENTO FACIAL</p>
+                <form class="formulario" action="">
+                    <a class="camara" href="#">
+                        <!-- <img class="img" src="img/camara.png" alt=""> -->
+                        <i class="fa-solid fa-camera"></i>
+                    </a>
+                    <div class="input">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Ingrese Su Correo">
+                    </div>
+                    <div class="input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Ingrese Una Contraseña">
+                    </div>
+                    <input class="enviar" type="submit" value="INGRESAR">
+                </form>
+            </section>
+        </article>
     </main>
 </body>
 </html>
